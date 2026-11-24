@@ -4,17 +4,17 @@
 Writes a single original one-line joke about office life
 (<=200 characters) to /output/entry.txt.
 
-The joke: HR calls the company a family, so the only inheritance
-this job ever leaves you is your predecessor's login and his
-unfinished spreadsheets. Deterministic: the same single line on
-every run, no network, no input.
+The joke: HR calls the company a family, so the only thing this
+job ever leaves you is your predecessor's login and his unfinished
+spreadsheets — the family inheritance. Deterministic: the same
+single line on every run, no network, no input.
 """
 
 import os
 
 JOKE = (
-    "HR said we're a family, which explains why the only inheritance "
-    "I got from this job is my predecessor's login and his unfinished "
+    "HR says we're a family, so the only thing I inherited from "
+    "this job is my predecessor's login and his unfinished "
     "spreadsheets."
 )
 
